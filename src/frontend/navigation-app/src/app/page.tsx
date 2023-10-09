@@ -1,11 +1,7 @@
-import Navbar from '@/components/Navbar'
-import Image from 'next/image'
+import { ChakraProvider } from '@chakra-ui/react'
 
-export default function Home() {
+export default function Page() {
   return (
-    <div>
-      <Navbar />
-      This is a test
-    </div>
+      <div>Hello </div>
   )
 }
